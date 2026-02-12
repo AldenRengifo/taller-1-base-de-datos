@@ -102,7 +102,7 @@ function calculateHint(playerGuess, targetNumber) {
   if (distance <= 5) return "Very hot";
   if (distance <= 15) return "Hot";
   if (distance <= 30) return "Warm";
-  return "Cold";
+  return "Cold"
 }
 
 function generateRandomNumber(minValue, maxValue) {
