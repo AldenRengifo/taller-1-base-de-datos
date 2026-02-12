@@ -90,7 +90,8 @@ function processGuess(guess) {
 
 function showWinMessage() {
   alert(
-
+    "You guessed the number.\n" +
+    "Total attempts: " +
     attemptCount
   );
 }
